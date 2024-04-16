@@ -1,0 +1,139 @@
+/* App.css */
+.app-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #100404db;
+  border-radius: 5px;
+  background-color: #edf1f5;
+}
+
+.chat-input {
+  position: absolute;
+  bottom: 20px; /* Adjust the bottom position */
+  left: 0;
+  width: 100%;
+  display: flex;
+}
+
+/* Chat message styles */
+.chat-message {
+  border-color: black;
+  max-width: 70%;
+  margin-right: auto;
+  padding: 10px;
+  border-radius: 10px;
+  margin-left: -48px;
+}
+.chat-message-list {
+  display: flex;
+  flex-direction: column;
+}
+.chat-message.received {
+  margin-right: auto;
+  background-color: #6cf360;
+}
+.message-content p {
+  margin: 0;
+}
+
+/* Profile image */
+.profile-image {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+  color: white;
+  background: #bd4848;
+  text-align: center;
+}
+
+/* Message header */
+.message-header {
+  margin-left: 41px;
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+}
+
+/* Username */
+.username {
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+/* Timestamp */
+.timestamp {
+  color: #777;
+  font-size: 0.8em;
+  margin-inline: auto;
+  margin-right: 5px;
+  margin-top: 6px;
+}
+
+/* Text message */
+.message-content{
+  background-color: #ffffff; /* Different background color for text message */
+  border-radius: 8px;
+  padding: 10px;
+  margin-left: 40px; /* Adjusted margin for proper alignment */
+  display: flex;
+  align-items: center;
+}
+
+/* Like button */
+.like-button {
+  cursor: pointer;
+  margin-left: 85px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  background: transparent;
+  color: #232223;
+}
+
+
+/* Chat input box */
+.message-input {
+  display: flex;
+  align-items: center;
+  border-top: 1px solid #111010;
+  padding: 10px;
+  border: 1px solid #0b0b0b;
+  width:96%;
+  flex: 1;
+  border-radius: 25px;
+  font-size: 1em;
+  outline: none;
+  margin-top: 10px;
+}
+
+/* Send button */
+.send-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-left: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 90px;
+  margin-top: 20px;
+  margin-left: 5px;
+}
+
+.send-button:hover {
+  background-color: #0056b3;
+}
